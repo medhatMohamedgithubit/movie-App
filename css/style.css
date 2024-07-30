@@ -1,0 +1,71 @@
+*,*::after,*::before{
+    box-sizing: border-box;
+}
+body{
+    background-color: #0c0c0c;
+    margin: 0;
+}
+.nav{
+    background-color: #070707;
+    width: 15.125rem;
+    z-index: 2;
+}
+.nav-item a{
+    color: #ffffff;
+}
+.nav-item a:hover{
+    color: red;
+}
+nav{
+    width: 4.5rem;
+    background-color: white;
+    left: 15.125rem;
+    z-index: 2;
+}
+header input{
+    width: 60%;
+   display: block;
+   margin: auto;
+   background-color: transparent;
+   border: .0625rem solid greenyellow;
+ color: greenyellow;
+   
+}
+#open-close{
+    cursor: pointer;
+}
+.container .row .inner img{
+    transition: all 0.9s;
+}
+.container .row .inner figcaption{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 1.25rem;
+  transform: translatey(100%);
+  transition: all 0.9s;
+}
+.container .row .inner:hover figcaption{
+    transform: translatey(0);  
+}
+.container .row .inner:hover img{
+    scale: 1.25;
+    transform: rotate(5deg);
+}
+.container .row .inner figcaption span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    
+    border: .0625rem solid greenyellow;
+    width: 2.8rem;
+    height: 2.8rem;
+    border-radius: 100%;
+}
+

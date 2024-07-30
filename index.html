@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie App</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- *start Navbar -->
+     <nav class="open-close position-fixed top-0 bottom-0  d-flex flex-column justify-content-between align-items-center  ">
+        
+            <div>
+                <i class="fs-2 p-3 fa-brands fa-slack"></i>
+            </div>
+            <div id="open"><i class="fs-5 p-3 fa-solid fa-bars"></i>
+              
+            </div>
+            <div id="close">
+              <i class=" fa-solid fa-x"></i>
+            </div>
+            
+            <div>
+                <i class="fs-5 p-3 fa-solid fa-globe"></i>
+                <i class="fs-5 p-3 fa-solid fa-share-nodes"></i>
+
+            </div>
+        
+      
+     </nav>
+     <div class="nav  position-fixed top-0 bottom-0 d-flex flex-column align-items-center justify-content-between ">
+        <div class="nav-bar">
+            <ul class="nav flex-column">
+                <li class="nav-item">
+                  <a id="nowPlaying" class="nav-link active" aria-current="page" href="#">Now playing</a>
+                </li>
+                <li class="nav-item">
+                  <a id="Popular" class="nav-link" href="#">Popular</a>
+                </li>
+                <li class="nav-item">
+                  <a id="rated" class="nav-link" href="#">Top Rated</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link " href="#">Trending</a>
+                </li>
+                <li class="nav-item">
+                    <a id="Upcoming" class="nav-link " href="#">Upcoming</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link " href="#contact">Contact Us</a>
+                  </li>
+              </ul>
+        </div>
+        <div class="socil-icon p-2">
+            <i class="p-1 text-white fa-brands fa-facebook-f"></i>
+            <i class="p-1 text-white fa-brands fa-twitter"></i>
+            <i class="p-1 text-white fa-solid fa-globe"></i>
+            <p class="text-white">Copyright © 2022 All Rights </p>
+            <p class="text-white">Reserved. </p>
+            <p class="text-white">Created by <a class="text-decoration-none text-danger" href="#">Medhat Mohamed</a></p>
+        </div>
+    </div>
+    <header class="container">
+      <input id="search" class="rounded-start-pill rounded-end-pill" type="text" placeholder="search" >
+    </header>
+        <section class="container" >
+          <div class="row " id="data">
+            
+          
+            
+          </div>
+          <div id="contact" class="container mt-3 gy-4">
+            <div class="row">
+              <div class="col-md-6  d-flex flex-column w-100 form-control bg-transparent">
+                  <input class="bg-transparent mb-4" type="text" placeholder="Enter you name" required>
+                  <input class="bg-transparent mb-4" type="email" placeholder="Enter your email" required>
+                  <input class="bg-transparent mb-4" type="number" placeholder="Enter your age" required>
+                  <input class="bg-transparent mb-4" type="text" placeholder="Enter your phone" required>
+                  <input class="bg-transparent mb-4" type="password" placeholder="Enter your password" required>
+                  <input class="bg-transparent mb-4" type="password" placeholder="Enter your password" required>
+               <button class="btn btn-danger">submit</button>
+              </div>
+            </div>
+          </div>
+         
+          
+        </section>
+
+ 
+
+
+
+
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
